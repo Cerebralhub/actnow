@@ -1,0 +1,57 @@
+.head{
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.script .container .row h1{
+    /* padding-left: 140px;
+    padding-right: 140px; */
+    padding-bottom: 50px;
+}
+
+.script .container .row .txt-center{
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.script .container .row .script-turned{
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(207, 207, 207);
+    padding-top: 50px;
+}
+
+
+ol {
+    list-style: none;
+    padding: 20px;
+    counter-reset: my-awesome-counter;
+
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+  }
+  
+  
+.banner img{
+    width: 100%;
+}
+  
+.requirement .topic{
+    padding-top: 60px;
+}
+  
+.faqs h5{
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.faqs p{
+    padding-top: 5px;
+}
